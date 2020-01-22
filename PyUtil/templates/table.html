@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Table</title>
+</head>
+<body>
+	<table id="table">
+	{% if content == "India" %}
+	<tr>
+		{{content}} In India!
+	</tr>
+	{% elif content != "India" %}
+	<tr>
+		{{content}} Out of India!
+	</tr>
+	{% endif %}
+	</table>
+</body>
+</html>
