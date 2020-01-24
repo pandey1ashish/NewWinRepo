@@ -32,5 +32,9 @@ SHOW PRIVILEGES;
 show create procedure spCreateUser;
 
 select count(*) from actor;
+select max(actor_id) from actor;
 select * from actor where first_name = 'NICK';
-select Concat(first_name,' ', last_name) from actor where actor_id = 2;
+select Concat(first_name,' ', last_name) from actor where actor_id = 201;
+insert into actor(actor_id, first_name, last_name, last_update) values(201, 'Ashish', 'Pandey', sysdate());
+commit;
+

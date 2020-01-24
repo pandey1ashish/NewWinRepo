@@ -24,13 +24,15 @@ app.config['MYSQL_DB'] = 'sakila'
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'GET':        
-        return render_template('login_form.html')        
+        return render_template('login_form.html', content="Python Example Registration Form")        
     elif request.method == 'POST':
+        #text = request.form['username']
+        uid = request.form['userid']
         sconn = sqlConn
-        sconn.mySQLData(sconn)
-        valOut =  "Conn Successfull %s"%sconn.mySQLData(sconn)
-        text = request.form['username']
-        return "submitted! %s and mySql: %s"%(text,valOut)
+        #sconn.mySQLData(sconn)
+        valOut =  sconn.mySQLData(sconn, uid)
+        #return "submitted! %s and mySql: %s"%(text,valOut)
+        return render_template('login_form.html', content="Python Example Registration Form POST!", firstname=valOut, lastname="Last Name") 
         
     
 
