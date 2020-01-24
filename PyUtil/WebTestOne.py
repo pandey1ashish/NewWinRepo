@@ -1,6 +1,8 @@
 #! /usr/env/bin python3
 
 from flask import Flask, render_template, request
+from mySqlConn import sqlConn
+from flaskext.mysql import MySQL
 
 app = Flask(__name__)
 
@@ -8,6 +10,11 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
+@app.route('/sqlconn')
+def my_sql_conn():
+    mysqlconn = sqlConn
+    return mysqlconn.mySQLData(mysqlconn)
+    
 
 @app.route("/user/<name>")
 def user(name):
