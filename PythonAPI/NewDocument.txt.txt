@@ -1,0 +1,173 @@
+Ashish@HOME-PC MINGW64 /d/GitRepos/UdemyCourse/linkedlist_java/fb4d71b0-fc2a-4bee-a37e-e9a0d0137d47/linkedlist_java/linked_list (master)
+$ history
+    1  pwd
+    2  conn
+    3  ls
+    4  ls -l
+    5  vim app.py
+    6  pythom app.py
+    7  python app.py
+    8  python3 app.py
+    9  python3 app.py | tee output.txt
+   10  apt-get install python3
+   11  apt install python3
+   12  pip install python
+   13  pip install python3
+   14  python3 -m pip install -U
+   15  clear
+   16  git config --global user.name "pandey1ashish"
+   17  git config --global user.email "ashishpandey.list@gmail.com"
+   18  git clone https://github.com/pandey1ashish/UtilityTest.git
+   19  pwd
+   20  cd UtilityTest/
+   21  git remote
+   22  git remote -v
+   23  start notepad example.txt
+   24  git status
+   25  git add example.txt
+   26  git status
+   27  git commit -m "First Example"
+   28  git status
+   29  git push
+   30  git status
+   31  vim example.txt
+   32  cd..
+   33  exit
+   34  echo("India shell")
+   35  echo("India shell")
+   36  git status
+   37  git init
+   38  git status
+   39  git dif
+   40  git diff
+   41  git -v
+   42  git --version
+   43  exit
+   44  ls
+   45  git log
+   46  git status
+   47  git init
+   48  git status
+   49  git log
+   50  git diff
+   51  cd ..
+   52  exit
+   53  git -version
+   54  git remote list
+   55  git list
+   56  git rev-list
+   57  git status
+   58  git init
+   59  cd /
+   60  clear
+   61  git init
+   62  logout
+   63  git log
+   64  git reflog
+   65  git clone
+   66  cd c:
+   67  cd Users/
+   68  dir
+   69  cd Ashish/Desktop/VSCode/PythonTutorials/
+   70  clear
+   71  python3 iEvolveCourse.py
+   72  clear
+   73  python iEvolveCourse.py
+   74  python iEvolveCourse.py
+   75  python iEvolveCourse.py
+   76  python iEvolveCourse.py
+   77  python iEvolveCourse.py
+   78  python iEvolveCourse.py
+   79  python iEvolveCourse.py
+   80  clear
+   81  python iEvolveCourse1.py
+   82  python iEvolveCourse2.py
+   83  python iEvolveCourse3.py
+   84  python iEvolveCourse3.py
+   85  python iEvolveCourse3.py
+   86  python iEvolveCourse3.py
+   87  sqlplus system/ashish@localhost:1521/xe
+   88  exit
+   89  git status
+   90  git config user.name
+   91  git config user.email
+   92  git status
+   93  got branch
+   94  git branch
+   95  ls
+   96  pwd
+   97  cd ..
+   98  cd ..
+   99  pwd
+  100  pwd
+  101  cd src/
+  102  clear
+  103  git status
+  104  git log
+  105  exit
+  106  git branch
+  107  pwd
+  108  cd c
+  109  cd ..
+  110  cd ..
+  111  cd src
+  112  clear
+  113  git branch
+  114  git log
+  115  git log
+  116  gt rev-listgit
+  117  git
+  118  git log
+  119  git
+  120  gi
+  121  git status
+  122  git branch
+  123  git rev-list --count HEAD
+  124  exit
+  125  pwd
+  126  git branch
+  127  git init
+  128  git exit
+  129  exit
+  130  git push origin master
+  131  git checkout -b new_branch
+  132  git branch
+  133  cd linked_list/
+  134  ls
+  135  vi LinkedList.java
+  136  git status
+  137  git commit -m "Updated java file"
+  138  git add .
+  139  git status
+  140  vi LinkedList.java
+  141  git status
+  142  git commit -m "Final Updated java file"
+  143  git add .
+  144  git status
+  145  git checkout  new_branch
+  146  git rebase -i HEAD~3
+  147  vi LinkedList.java
+  148  git commit -m "Third commit made"
+  149  git add .
+  150  git rebase -i HEAD~3
+  151  git status
+  152  git add .
+  153  git checkout  new_branch
+  154  git rebase -i HEAD~2
+  155  git commit -m "one more commit came"
+  156  git status
+  157  git add .
+  158  git status
+  159  git rebase -i HEAD~3
+  160  git log --oneline
+  161  git checkout master
+  162  git merge new_branch
+  163  git statue
+  164  git status
+  165  git log --oneline
+  166  git push origin -f
+  167  git history
+  168  history
+
+Ashish@HOME-PC MINGW64 /d/GitRepos/UdemyCourse/linkedlist_java/fb4d71b0-fc2a-4bee-a37e-e9a0d0137d47/linkedlist_java/linked_list (master)
+$
